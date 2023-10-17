@@ -18,7 +18,7 @@
 .usermotto {
   margin-top: 200px;
 } */
-image{
+/* image{
   width:100%;
 }
 .content_name{
@@ -31,5 +31,9 @@ image{
   padding: 30rpx;
   font-weight: bold;
   line-height: 2;
+} */
+page {
+  padding-bottom: calc(constant(safe-area-inset-bottom) + 170rpx);
+  padding-bottom: calc(env(safe-area-inset-bottom) + 170rpx);
+  background: rgba(57, 179, 74, .3);
 }
-

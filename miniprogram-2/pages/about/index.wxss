@@ -1,1 +1,6 @@
 /* pages/about/index.wxss */
+page{
+  padding-bottom: calc(constant(safe-area-inset-bottom)+170rpx);
+  padding-bottom: calc(env(safe-area-inset-bottom)+170rpx);
+  background: rgba(234, 241, 129, 0.3);
+}
